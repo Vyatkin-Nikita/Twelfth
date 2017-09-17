@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Twelfth
 {
-    /*Реализация сортировки слиянием (через рекурсию) и блочной сортировки одномерного массива. 
+    /* 
+     * Реализация сортировки слиянием (через рекурсию) и блочной сортировки одномерного массива. 
      * Сортировки проверяются на отсортированном, не сортированном и сортированном в обратном порядке массивах.
      * Алгоритмы сортировки взяты из свободных источников. 
     */
@@ -206,6 +207,7 @@ namespace Twelfth
                         ShowArray(TaskArray);
                         Console.WriteLine("Количество сравненией: {0}", CompareCount);
                         Console.WriteLine("Количество пересылок: {0}", TransferCount);
+                        ArrayMenu();
                     }
                     break;
                 case 2:
@@ -218,6 +220,7 @@ namespace Twelfth
                         ShowArray(TaskArray);
                         Console.WriteLine("Количество сравненией: {0}", CompareCount);
                         Console.WriteLine("Количество пересылок: {0}", TransferCount);
+                        ArrayMenu();
                     }
                     break;
                 case 3:
